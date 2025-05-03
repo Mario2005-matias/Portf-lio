@@ -29,10 +29,13 @@ export default function Header() {
           
           {/* Download CV Button */}
           <div className="hidden md:block">
-            <button className="bg-white  hover:bg-blue-600 hover:duration-300 hover:text-white text-blue-600 font-medium text-xs py-2 px-4 border border-blue-600 rounded-full inline-flex items-center">
+            <a 
+            href="../../public/CV Mário Matias Viqueia .pdf"
+            download="Mário Matias Viqueia .pdf" 
+            className="bg-white  hover:bg-blue-600 hover:duration-300 hover:text-white text-blue-600 font-medium text-xs py-2 px-4 border border-blue-600 rounded-full inline-flex items-center">
               DOWNLOAD CV
               <FaDownload className="ml-2 text-sm" />
-            </button>
+            </a>
           </div>
           
           {/* Mobile menu button */}
