@@ -63,10 +63,13 @@ export default function Header() {
             <a href="#" className="text-gray-500 hover:text-blue-600 block px-3 py-2 text-base font-medium">Portfolio</a>
             <a href="#" className="text-gray-500 hover:text-blue-600 block px-3 py-2 text-base font-medium">Contacts</a>
             <a href="#" className="text-gray-500 hover:text-blue-600 block px-3 py-2 text-base font-medium">Blog</a>
-            <button className="mt-2 w-full bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-300 rounded-full inline-flex items-center justify-center">
+            <a
+            href="../../public/CV Mário Matias Viqueia .pdf"
+            download="Mário Matias Viqueia .pdf" 
+             className="mt-2 w-full bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-300 rounded-full inline-flex items-center justify-center">
               DOWNLOAD CV
               <ChevronDown className="ml-1 h-4 w-4" />
-            </button>
+            </a>
           </div>
         </div>
       )}
